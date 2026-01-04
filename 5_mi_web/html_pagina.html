@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+
+    <style>
+        body {
+            background-color: rgb(248, 248, 248);
+            background-image: url("nose.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Lenguajes de Marcas</h1>
+
+    <p>
+        Un lenguaje de marcas utiliza etiquetas para estructurar informacion.
+        HTML es el mas usado 
+    </p>
+
+    <h2>Ejemplo de tipos de texto </h2>
+    <p>
+        Texto con <strong>negrita</strong> y <em>cursiva</em>.
+    </p>
+
+    <h2>Enlaces</h2>
+    <p>
+        <a href="https://www.google.com">Google</a>
+    </p>
+
+    <h2>Tablas con link</h2>
+
+    <ol>
+        <li>España
+            <ul>
+                <li><a href="http://www.elpais.es">El País Digital</a></li>
+                <li><a href="http://www.abc.es">ABC</a></li>
+                <li><a href="http://www.elmundo.es">El Mundo</a></li>
+            </ul>
+        </li>
+    </ol>
+
+    <table border="1">
+        <tr>
+            <th>Pais</th>
+            <th>Habitantes</th>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>1300 millones</td>
+        </tr>
+        <tr>
+            <td>España</td>
+            <td>50 millones</td>
+        </tr>
+        <tr>
+            <td>EE.UU.</td>
+            <td>295 millones</td>
+        </tr>
+    </table>
+
+    <h2>Formulario</h2>
+
+    <form action="registrardatos.php" method="post">
+        <p>
+            Nombre:<br>
+            <input type="text" name="nombre" size="20">
+        </p>
+
+        <p>
+            Edad:<br>
+            <input type="text" name="edad" size="3">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+
+
+</body>
+</html>

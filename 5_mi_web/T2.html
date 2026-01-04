@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> HTML</title>
+</head>
+
+<body>
+
+<h1>Tablas y Formularios</h1>
+
+<!-- TABLA-->
+<h2>Tabla</h2>
+
+<table border="1">
+    <tr>
+        <td>China</td><td>1300 millones</td>
+    </tr>
+    <tr>
+        <td>India</td><td>1080 millones</td>
+    </tr>
+    <tr>
+        <td>Estados Unidos</td><td>295 millones</td>
+    </tr>
+</table>
+
+<br>
+
+<!--  TABLA CON ENCABEZADO -->
+<h2>Tabla con encabezado</h2>
+
+<table border="1">
+    <tr>
+        <th>Paises</th><th>Cantidad de habitantes</th>
+    </tr>
+    <tr>
+        <td>China</td><td>1300 millones</td>
+    </tr>
+    <tr>
+        <td>India</td><td>1080 millones</td>
+    </tr>
+    <tr>
+        <td>Estados Unidos</td><td>295 millones</td>
+    </tr>
+</table>
+
+<br>
+
+<!-- TABLA CON CAPTION -->
+<h2>Tabla con titulo (caption)</h2>
+
+<table border="1">
+    <caption>Poblacion de los paises con mayor cantidad de habitantes</caption>
+    <tr>
+        <th>Paises</th><th>Cantidad de habitantes</th>
+    </tr>
+    <tr>
+        <td>China</td><td>1300 millones</td>
+    </tr>
+    <tr>
+        <td>India</td><td>1080 millones</td>
+    </tr>
+    <tr>
+        <td>Estados Unidos</td><td>295 millones</td>
+    </tr>
+</table>
+
+<br>
+
+<!-- TABLA CON ROWSPAN Y COLSPAN -->
+<h2>Tabla con combinacion de celdas</h2>
+
+<table border="1">
+    <tr>
+        <td rowspan="4">Recursos</td>
+        <td colspan="4">Facturacion de los ultimos tres meses</td>
+    </tr>
+    <tr>
+        <td>Discos Duros</td><td>23000</td><td>27200</td><td>26000</td>
+    </tr>
+    <tr>
+        <td>CPU</td><td>73000</td><td>67300</td><td>51000</td>
+    </tr>
+    <tr>
+        <td>Monitores</td><td>53000</td><td>72000</td><td>88000</td>
+    </tr>
+</table>
+
+<br>
+
+<h2>Periodicos por pais</h2>
+
+<table border="1">
+    <tr>
+        <td rowspan="3">Argentina</td>
+        <td>La Nacion</td>
+        <td><a href="http://www.lanacion.com.ar">www.lanacion.com.ar</a></td>
+    </tr>
+    <tr>
+        <td>Clarin</td>
+        <td><a href="http://www.clarin.com.ar">www.clarin.com.ar</a></td>
+    </tr>
+    <tr>
+        <td>La Voz del Interior</td>
+        <td><a href="http://www.lavoz.com.ar">www.lavoz.com.ar</a></td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">Espana</td>
+        <td>El Pais digital</td>
+        <td><a href="http://www.elpais.es">www.elpais.es</a></td>
+    </tr>
+    <tr>
+        <td>ABC</td>
+        <td><a href="http://www.abc.es">www.abc.es</a></td>
+    </tr>
+    <tr>
+        <td>El Mundo</td>
+        <td><a href="http://www.elmundo.es">www.elmundo.es</a></td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">Mexico</td>
+        <td>La Jornada</td>
+        <td><a href="http://www.jornada.unam.mx">www.jornada.unam.mx</a></td>
+    </tr>
+    <tr>
+        <td>El Universal</td>
+        <td><a href="http://www.el-universal.com.mx">www.el-universal.com.mx</a></td>
+    </tr>
+</table>
+
+<br>
+
+<!-- . CARACTERES ESPECIALES -->
+<h2>Caracteres especiales</h2>
+
+<p>
+    &lt; menor que <br>
+    &gt; mayor que <br>
+    &amp; ampersand <br>
+    &nbsp; espacio en blanco <br>
+    &copy; simbolo copyright <br>
+    &euro; euro <br>
+</p>
+
+<h3>Ecuacion de ejemplo</h3>
+<p>10 + x * y &lt; 12 * z</p>
+
+<br>
+
+<!-- FORMULARIO BASICO -->
+<h2>Formulario basico</h2>
+
+<form action="registrardatos.php" method="post">
+    Introduce tu nombre:<br>
+    <input type="text" name="nombre" size="20"><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<br>
+
+<!-- FORMULARIO CON NOMBRE Y EDAD -->
+<h2>Formulario con nombre y edad</h2>
+
+<form action="registrardatos.php" method="post">
+    Nombre:<br>
+    <input type="text" name="nombre" size="20"><br><br>
+
+    Edad:<br>
+    <input type="text" name="edad" size="3"><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<br>
+
+<!-- FORMULARIO CON PASSWORD -->
+<h2>Formulario con contrasena</h2>
+
+<form action="registrardatos.php" method="post">
+    Nombre:<br>
+    <input type="text" name="nombre" size="20"><br><br>
+
+    Clave:<br>
+    <input type="password" name="clave" size="12"><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<br>
+
+<!--  COMENTARIOS -->
+<h2>Ejemplo de comentario</h2>
+
+<!-- Esto es un comentario no se muestra en la pagina -->
+
+<p>El comentario anterior no aparece en el navegador.</p>
+
+</body>
+</html>
