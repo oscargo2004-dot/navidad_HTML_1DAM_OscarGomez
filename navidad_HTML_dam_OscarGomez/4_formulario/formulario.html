@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formularios</title>
+</head>
+<body>
+  <h1>Formularios</h1>
+
+  <form action="mailto:ojgr03@educa.madrid.org.com?subject=tarea_de_marcas" method="post">
+    <h2>Datos personales</h2>
+
+    <label>Nombre (requerido):</label><br>
+    <input type="text" name="nombre"><br><br>
+
+    <label>Edad (Solo debe aceptar un número):</label><br>
+    <input type="text" name="edad"><br><br>
+
+    <label>Email:</label><br>
+    <input type="text" name="email"><br><br>
+
+    <label>Curso:</label><br>
+    <select name="curso">
+      <option>HTML básico</option>
+    </select><br><br>
+
+    <label>Comentarios:</label><br>
+    <textarea name="comentarios" rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <a href="../index.html">Volver al índice</a>
+</body>
+</html>
